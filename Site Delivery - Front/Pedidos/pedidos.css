@@ -1,0 +1,43 @@
+*{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  body{
+    height: 100%;
+    margin: 0;
+}  
+
+/* Header */
+
+header{
+    display: grid;
+    grid-template-columns: 30vh 6fr 2fr 2fr 2fr 2fr 2fr 30vh;
+    height: 10vh;
+    background-color: rgba(16, 138, 80, 1);
+    align-items: center;
+}
+  
+#contato{
+    grid-column: 3;
+}
+  
+header a{
+    text-decoration: none;
+    color: white;
+    justify-self: right;
+    font-size: 1.2em;
+}
+  
+header img{
+      grid-column: 2;
+}
+
+/* Sombra */
+#sombra{
+    display: grid;
+    grid-template-columns: 100vh;
+    background: linear-gradient(360deg, white, rgb(194, 194, 194));
+    height: 2vh;
+}
