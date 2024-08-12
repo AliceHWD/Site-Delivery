@@ -146,7 +146,7 @@ header img{
     display: grid;
     grid-template-columns: 30vh repeat(6, 1fr) 30vh;
     grid-template-rows: 26vh 26vh;
-    row-gap: 2vh;
+    row-gap: 1vh;
 }
 
 #tds-produtos div{

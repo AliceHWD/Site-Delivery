@@ -41,3 +41,37 @@ header img{
     background: linear-gradient(360deg, white, rgb(194, 194, 194));
     height: 2vh;
 }
+
+/* Isso ai */
+#titulo{
+    display: grid;
+    grid-template-columns: 30vh ;
+}
+
+#p-titulo{
+    grid-column: 2;
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+/* Produtos requeridos */
+#tds-produtos{
+    display: grid;
+    grid-template-columns: 30vh repeat(4, 1fr) 30vh;
+    height: 30vh;
+    row-gap: 1vh;
+}
+
+#tds-produtos div{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+#tds-produtos p{
+    margin: 0;
+}
+
+#produto01{
+    grid-column: 2;
+}
