@@ -58,7 +58,6 @@ header img{
 #tds-produtos{
     display: grid;
     grid-template-columns: 30vh repeat(4, 1fr) 30vh;
-    height: 30vh;
     row-gap: 1vh;
 }
 
@@ -74,4 +73,71 @@ header img{
 
 #produto01{
     grid-column: 2;
+}
+
+#add{
+    height: 25vh;
+}
+
+#tds-produtos img:hover{
+    filter: contrast(80%);
+    /* scale: 1.1; */
+}
+
+/* Sugestões */
+#sugestoes{
+    display: grid;
+    grid-template-columns: 30vh;
+    margin-top: 20px;
+}
+
+#h-titulo{
+    grid-column: 2;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+#s-produtos{
+    display: grid;
+    grid-template-columns: 30vh repeat(4, 1fr) 30vh;
+
+}
+
+#s-produtos div{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#linha-verde{
+    margin-top: 20px;
+    height: 1px;
+    background-color: rgba(16, 138, 80, 1);
+}
+
+/* Resumo do pedido */
+#resumo{
+    display: grid;
+    grid-template-columns: 30vh 1fr 1fr 1fr 30vh;
+    align-items: center;
+}
+
+#preco{
+    grid-column: 2;
+    font-size: 1.2em;
+}
+
+#total{
+    color: rgba(16, 138, 80, 1);
+    font-size: 1.5em;
+    text-decoration:underline;
+}
+
+#formas-de-pagamento{
+    grid-column: 4;
+    background-color: rgb(230, 230, 230);
+    height: 150px;
+    border-radius: 20px;
+    display: grid;
+    justify-items: center;
 }
