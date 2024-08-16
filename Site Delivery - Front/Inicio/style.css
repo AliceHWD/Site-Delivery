@@ -23,31 +23,25 @@ main {
     justify-content: center;
 }
 
-main>img{ 
-    height: 100%;
+svg{
+    height: 7vh;
 }
 
-main svg{
-    height: 100px;
-    width: 100px;
-    display: grid;
-    align-self: baseline;
-}
-
-svg path{
-    height: 100px;
-    width: 100px;
-}
-
-#fundo-branco{
-    display: grid;
-    align-self: center;
-    background-color: aliceblue;
-    filter: blur(50px);
-    height: 20vh;
-    width: 50vh;
-}
-
-#fundo-branco p{
+p{
     color: black;
+    font-size: 3em;
+    background-color: #ffffffd3;
+    text-decoration: none;    
+}
+
+span{
+    color: rgba(16, 138, 80, 1);
+}
+
+#toca{
+    text-decoration: none;
+}
+
+#ai{
+    font-size: 1em;
 }
